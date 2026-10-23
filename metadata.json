@@ -1,0 +1,6 @@
+{
+  "name": "Fashion Aura",
+  "description": "Fashion Aura Order Management System (ফ্যাশন আউরা অর্ডার ম্যানেজমেন্ট) for women's clothing e-commerce in Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

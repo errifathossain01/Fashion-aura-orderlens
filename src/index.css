@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', 'Noto Sans Bengali', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.65;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+  input, select, textarea, button {
+    min-height: 48px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+/* High Contrast Button & Card Fixes for Direct Sunlight Visibility */
+.fa-btn-primary {
+  background-color: #9d174d; /* High contrast Deep Rose */
+  color: #ffffff;
+  font-weight: 700;
+}
+.fa-btn-primary:hover {
+  background-color: #831843;
+}
+
+.fa-btn-secondary {
+  background-color: #065f46; /* High contrast Deep Emerald */
+  color: #ffffff;
+  font-weight: 700;
+}
+.fa-btn-secondary:hover {
+  background-color: #044e39;
+}
+
+.fa-btn-dark {
+  background-color: #1e293b; /* High contrast Slate 800 */
+  color: #ffffff;
+  font-weight: 700;
+}
+.fa-btn-dark:hover {
+  background-color: #0f172a;
+}
